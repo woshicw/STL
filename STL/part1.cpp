@@ -57,7 +57,7 @@ char character(char start, int offset) {
 }
 int main()
 {
-      cout << "Character";
+      cout << "Character:" << endl;
       cout << character('a', 1) << endl;
       cout << character('Z', -1) << endl;
       cout << character('a', -1) << endl;
